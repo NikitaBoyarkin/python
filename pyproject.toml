@@ -24,4 +24,4 @@ packages = ["src/python_analytics"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=python_analytics --cov-report=term-missing --cov-fail-under=60"
+addopts = "--cov=python_analytics --cov-report=term-missing --cov-fail-under=80"
