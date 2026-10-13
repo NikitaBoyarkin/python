@@ -33,7 +33,7 @@
 
 - **34 теста** — `tests/` (7 clean + 4 eda + 4 load + 2 pipeline + 1 report + 14 segment + 2 viz).
 - **≥ 80 %** — порог покрытия `--cov-fail-under=80` (`pyproject.toml`).
-- **1 000 строк** — синтетика по умолчанию: `generate_synthetic_data(n=1000, seed=42)` + 5 дубликатов и 20 пропусков в `income` (`pipeline.py:16`).
+- **1 000 строк** — синтетика по умолчанию: `generate_synthetic_data(n=1000, seed=42)` + 5 дубликатов и 21 пропуск в `income` (`pipeline.py:16`).
 - **2 отчёта** — `reports/report.md` и `reports/segmentation_report.md`.
 
 Аналитический портфолио-проект: модули загрузки, очистки, EDA и визуализации данных. Покрытие тестами ≥80%.
