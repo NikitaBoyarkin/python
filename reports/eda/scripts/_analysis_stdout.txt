@@ -1,0 +1,187 @@
+{
+  "raw_rows": 1005,
+  "raw_cols": 3,
+  "clean_rows": 1000,
+  "raw_null_income": 21,
+  "raw_null_age": 0,
+  "raw_null_spend": 0,
+  "raw_full_dups": 5,
+  "clean_full_dups": 0,
+  "distributions": {
+    "age": {
+      "mean": 43.643,
+      "median": 44.0,
+      "std": 14.9959,
+      "p25": 30.0,
+      "p75": 57.0,
+      "p95": 67.0,
+      "min": 18.0,
+      "max": 69.0,
+      "skew": -0.0318,
+      "outlier_share": 0.0,
+      "negatives": 0
+    },
+    "income": {
+      "mean": 49597.7714,
+      "median": 50032.5,
+      "std": 15208.1501,
+      "p25": 39869.9025,
+      "p75": 59257.3725,
+      "p95": 74255.5165,
+      "min": -4726.19,
+      "max": 97682.81,
+      "skew": -0.1216,
+      "outlier_share": 0.011,
+      "negatives": 1
+    },
+    "spend": {
+      "mean": 19301.8298,
+      "median": 19737.47,
+      "std": 8077.8995,
+      "p25": 13966.6525,
+      "p75": 24666.99,
+      "p95": 32402.6905,
+      "min": -4510.24,
+      "max": 43313.96,
+      "skew": -0.0121,
+      "outlier_share": 0.011,
+      "negatives": 6
+    }
+  },
+  "corr": {
+    "age|age": 1.0,
+    "age|income": 0.0419,
+    "age|spend": -0.0195,
+    "income|age": 0.0419,
+    "income|income": 1.0,
+    "income|spend": -0.054,
+    "spend|age": -0.0195,
+    "spend|income": -0.054,
+    "spend|spend": 1.0
+  },
+  "max_abs_corr": 0.054,
+  "by_age_group": [
+    {
+      "segment": "18-25",
+      "count": 167,
+      "mean": 20130.5028,
+      "median": 20317.55,
+      "sum": 3361793.97,
+      "share_of_total": 0.1742
+    },
+    {
+      "segment": "26-35",
+      "count": 175,
+      "mean": 19466.5806,
+      "median": 19995.5,
+      "sum": 3406651.61,
+      "share_of_total": 0.1765
+    },
+    {
+      "segment": "36-50",
+      "count": 287,
+      "mean": 18900.1232,
+      "median": 18833.52,
+      "sum": 5424335.35,
+      "share_of_total": 0.281
+    },
+    {
+      "segment": "51-65",
+      "count": 288,
+      "mean": 18864.5812,
+      "median": 19703.275,
+      "sum": 5432999.39,
+      "share_of_total": 0.2815
+    },
+    {
+      "segment": "66+",
+      "count": 83,
+      "mean": 20193.3673,
+      "median": 20703.7,
+      "sum": 1676049.49,
+      "share_of_total": 0.0868
+    }
+  ],
+  "by_value_seg": [
+    {
+      "segment": "Low",
+      "count": 250,
+      "mean": 8929.1452,
+      "median": 9892.275,
+      "sum": 2232286.3,
+      "share_of_total": 0.1157
+    },
+    {
+      "segment": "Medium-Low",
+      "count": 250,
+      "mean": 16860.9837,
+      "median": 16844.185,
+      "sum": 4215245.93,
+      "share_of_total": 0.2184
+    },
+    {
+      "segment": "Medium-High",
+      "count": 250,
+      "mean": 22039.7813,
+      "median": 21901.375,
+      "sum": 5509945.33,
+      "share_of_total": 0.2855
+    },
+    {
+      "segment": "High",
+      "count": 250,
+      "mean": 29377.409,
+      "median": 28225.45,
+      "sum": 7344352.25,
+      "share_of_total": 0.3805
+    }
+  ],
+  "spend_rate_by_age": [
+    {
+      "segment": "18-25",
+      "count": 167,
+      "mean": 0.4704,
+      "median": 0.3801
+    },
+    {
+      "segment": "26-35",
+      "count": 175,
+      "mean": 0.4528,
+      "median": 0.4437
+    },
+    {
+      "segment": "36-50",
+      "count": 287,
+      "mean": 0.4278,
+      "median": 0.3803
+    },
+    {
+      "segment": "51-65",
+      "count": 288,
+      "mean": 0.4343,
+      "median": 0.3833
+    },
+    {
+      "segment": "66+",
+      "count": 83,
+      "mean": 0.4633,
+      "median": 0.4036
+    }
+  ],
+  "pareto_top10": 0.173,
+  "pareto_top20": 0.3151,
+  "pareto_top30": 0.443,
+  "gini_spend": 0.2354,
+  "spend_rate_mean": 0.4441,
+  "spend_rate_median": 0.3901,
+  "spend_rate_min": -7.6188,
+  "spend_rate_max": 3.9203,
+  "spend_rate_negative": 7,
+  "age_in_range": true,
+  "income_negative": 1,
+  "spend_negative": 6,
+  "age_min": 18,
+  "age_max": 69
+}
+
+Wrote /Users/nikitaboarkin/Desktop/00 ide/00 portfolio/python/reports/eda/scripts/_summary.json
